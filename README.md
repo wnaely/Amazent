@@ -36,9 +36,11 @@ Amazon Alexa 사용자 리뷰에서 나타나는 감정을 분석
    * ### 데이터 출처
       
       이번 프로젝트에서는 Kaggle에서 제공하는 Amazon Alexa Reviews (https://www.kaggle.com/datasets/sid321axn/amazon-alexa-reviews) 데이터셋을 사용하였다.
+      
+   * ### 데이터 소개
+     
+      이 데이터 세트는 Amazon 고객 리뷰, 별점, 리뷰 날짜, 제품 종류 및 피드백과 같은 다양한 Amazon Alexa 제품에 대한 데이터를 포함하고 있다. 
        
-   
-   
    ### 입력 - 모델링 - 출력
    
    
