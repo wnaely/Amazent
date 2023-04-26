@@ -1,5 +1,5 @@
-# AlexaSentiment
-MobileBert를 활용하여 Amazon Alexa 사용자 리뷰에서 나타나는 감성을 긍부정으로 예측
+# Amazent
+MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 긍부정으로 예측
 
 ## 1. 개요
 
