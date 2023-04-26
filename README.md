@@ -1,4 +1,4 @@
-# Amazent <img src="https://img.shields.io/badge/Amazon-FF9900?style=for-the badge&logo=Amazon&logoColor=white">
+# Amazent <a href="https://www.amazon.com/" target="_blank"><img src="https://img.shields.io/badge/Amazon-FF9900?style=for-the badge&logo=Amazon&logoColor=white">
 MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 긍부정으로 예측
 
 
