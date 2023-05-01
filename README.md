@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=F49303&height=300&section=header&text=Amazent&fontSize=80&animation=fadeIn&fontAlignY=38&descSize=25&desc=Prediction%20of%20positive%20and%20negative%20Amazon%20user%20reviews&descAlignY=55&fontColor=FFFFFF)
+![header](https://capsule-render.vercel.app/api?type=waving&color=F49303&height=300&section=header&text=Amazent&fontSize=80&animation=fadeIn&fontAlignY=36&descSize=25&desc=Prediction%20of%20positive%20and%20negative%20Amazon%20user%20reviews&descAlignY=53&fontColor=FFFFFF)
 
 # Amazent <a href="https://www.amazon.com/" target="_blank"><img src="https://img.shields.io/badge/Amazon-F49303?style=for-the badge&logo=Amazon&logoColor=white">
 MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 긍부정으로 예측
@@ -8,8 +8,6 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
 
    * ### 문제정의
    
-      아마존(전자상거래, 인터넷 유통 업체) 플랫폼에서의 리뷰가 갖는 영향
-      
       전자 상 거래를 우리는 자주 사용하고 있다
       언제 어디서나 인터넷으로 물건을 살 수 있다
       하지만 그중에 평점은 중요한 역할을 하고 있다
@@ -18,10 +16,12 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
       
       아마존 리뷰로 그런것들을 분석해보려고 한다.
       
-   
-      음성 인식 기술은 많은 분야에서 매우 빠르게 발전하고 있으며, 사회나 산업적으로도 큰 영향을 미치고 있다. 또한 이러한 기술의 발전으로 우리의 삶은 더욱 편리하고 효율적으로 바뀌고 있다.
       
-      이번 프로젝트에서는 Alexa를 사용하는 사람들의 의견을 수집하고 분석하여 제품의 장단점과 개선점을 파악하는 것을 목표로 하며, 이를 위해 Kaggle에서 제공하는 Amazon Alexa 리뷰 데이터셋을 이용하여 리뷰의 긍정 혹은 부정을 예측하는 인공지능 모델을 개발하려고 한다. <hr>
+      오늘날 많은 소비자들은 상품이나 서비스 구매 시 사전에 다른 소비자들이 작성한 이용후기 검색을 통해 다양한 경험정보를 확인하고 있다. 
+      온라인 판매 사이트나 개인 블로그 외에 최근에는 인스타그램 등 SNS 상에서도 손쉽게 이용후기를 접할 수 있어 적은 시간과 노력으로 다양한 소비자정보를 제공받을 수 있는 소비 환경으로 발전하고 있다. 
+      
+      다만, 소비자는 긍정적 이용후기가 많은 상품이나 서비스를 상대적으로 더 선호하는 경향이 있어 사업자 스스로 거짓 이용후기를 올리거나, 부정적 이용 후기는 삭제하는 등 상업적으로 악용하는 사례 또한 늘어나고 있다. 
+      따라서 소비자들이 신뢰할 수 있는 유용한 정보로서의 이용후기 작성 및 제공 환경 조성이 무엇보다 중요하다고 할 수 있다.<hr>
       
       가상비서 점유율 그래프
       비중을 차지하고 있고 시장을 이만큼 차지하고 있다.
@@ -31,6 +31,12 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
       아마존의 플랫폼으로써의 가치
       이런 점이 구매에 끼치는 영향
 
+
+   * ### 아마존(전자상거래, 인터넷 유통 업체) 플랫폼에서의 리뷰가 갖는 영향
+      
+      이러쿵저러쿵
+   
+  
       
 
    * ### Amazon Alexa 사용자 리뷰의 영향력
