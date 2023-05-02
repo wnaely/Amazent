@@ -66,12 +66,18 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
       
    * ### 데이터 소개
      
-      이 데이터 세트는 Amazon 고객 리뷰, 별점, 리뷰 날짜, 제품 종류 및 피드백과 같은 다양한 Amazon Alexa 제품에 대한 데이터를 포함하고 있다. 
-      
-      tsv 파일이었던 데이터셋을 보기 쉽게 xlxs 형식의 파일로 전환하였다.
-      
-      ![image](https://user-images.githubusercontent.com/130523834/232951823-d88dd0da-576c-49e7-8959-6cc858a9710d.png)
+     <img width="850" alt="head" src="https://user-images.githubusercontent.com/130523834/235735720-6de2a021-13eb-4799-b559-f5a7b72b0f13.png">
+     
+      Amazon 리뷰 데이터셋은 리뷰 평점에 따라 분류하였는데, 평점 3점은 제외하고 1과 2점을 부정, 4와 5점을 긍정으로 간주하여 구성하였다.
+     
+     <b> label - 긍부정 분류 </b> (데이터셋에서 label 1은 부정이고 label 2는 긍정이다) <br>
+     <b> title - 리뷰의 제목 <br>
+     reviews - 리뷰의 내용 <br> </b>
 
+     
+    
+      
+  
        
    ### 입력 - 모델링 - 출력
        
