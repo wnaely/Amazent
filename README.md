@@ -20,7 +20,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
        <hr>
   
        
-     <a href="https://www.insiderintelligence.com/content/top-10-us-companies-ranked-by-ecommerce-sales"><img width="700" alt="eMarket" src="https://user-images.githubusercontent.com/130523834/235666591-65b6fb37-0b9b-432d-b1c1-972568790948.png">
+     <a href="https://www.insiderintelligence.com/content/top-10-us-companies-ranked-by-ecommerce-sales"><img width="700" alt="eMarket" src="https://user-images.githubusercontent.com/130523834/235723017-00138c57-b60c-4a18-92b1-bbfaa9656520.png">
        
      (출처: Market share of leading retail e-commerce companies in the United States<sup>[02]</sup>)
   
