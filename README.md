@@ -16,14 +16,12 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
   
      이러한 전자상거래의 발전으로 인해 고객들은 더욱 많은 제품을 쉽게 구매할 수 있게 되었지만, 제품의 질이나 신뢰성 등에 대한 불안감 역시 함께 증가하였다. 이러한 불안감을 해소하기 위해 고객들은 온라인으로 제품 구매 시 상품의 평점과 리뷰를 주로 참고하고 있다. 이에 따라 사용자들은 상품에 대한 자신의 경험을 리뷰로 남겨 다른 고객들에게 도움을 주며, 이는 전자상거래 업체들이 구매 후기 시스템을 운영하고 활용하는 데 큰 역할을 하고 있다.
   
-  
-  
-  
-     <a href="https://www.insiderintelligence.com/content/top-10-us-companies-ranked-by-ecommerce-sales"><img width="700" alt="eMarket" src="https://user-images.githubusercontent.com/130523834/235649002-7b0ee3d7-1905-4264-bc17-ab4a518ab9c4.png">
        
-       (출처: eMarketer<sup>[01]</sup>)
+     <a href="https://www.insiderintelligence.com/content/top-10-us-companies-ranked-by-ecommerce-sales"><img width="700" alt="eMarket" src="https://user-images.githubusercontent.com/130523834/235666591-65b6fb37-0b9b-432d-b1c1-972568790948.png">
+       
+     (출처:Market share of leading retail e-commerce companies in the United States<sup>[01]</sup>)
   
-     eMarketer의 자료에 의하면 아마존이 시장의 37.8%를 차지하면서 가장 높은 시장 점유율을 보여주는 것으로 나타났다. 실제, 2위인 월마트 6.3%와 3위인 애플의 3.9%와는 엄청난 격차를 보여줄 뿐 아니라 2위에서 15위까지 14개 기업의 시장 점유율을 다 합쳐도 아마존의 시장 점유율에 미치지 못하는 모습을 보여준다.
+     위 그래프는 미국 내 주요 소매 전자상거래 업체의 시장 점유율을 나타낸 그래프이며 eMarketer의 자료에 의하면 아마존이 시장의 37.8%를 차지하면서 가장 높은 시장 점유율을 보여주는 것으로 나타났다. 실제, 2위인 월마트 6.3%와 3위인 애플의 3.9%와는 엄청난 격차를 보여줄 뿐 아니라 2위에서 15위까지 14개 기업의 시장 점유율을 다 합쳐도 아마존의 시장 점유율에 미치지 못하는 모습을 보여준다.
        
      Amazon은 세계적인 규모를 가진 전자상거래 업체로서, 수많은 제품과 대량의 리뷰 데이터를 보유하고 있다. 이러한 Amazon 리뷰 데이터를 분석하여 제품의 평판을 파악하고, 고객들이 원하는 제품을 더욱 정확하게 추천해주는 것은 아마존뿐만 아니라 온라인 판매 업체에게 매우 중요한 과제이다. 따라서 이번 프로젝트에서는 아마존 리뷰 데이터를 수집하고 감성 분석을 통해 제품에 대한 고객의 평가를 분석하고자 한다.
   
