@@ -19,7 +19,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
        <hr>
   
        
-     <a href="https://www.insiderintelligence.com/articles/topics/retail-ecommerce?ecid=NL1016"><img width="700" alt="eMarket" src="https://user-images.githubusercontent.com/130523834/235723017-00138c57-b60c-4a18-92b1-bbfaa9656520.png"> <br>
+     <a href="https://www.statista.com/statistics/274255/market-share-of-the-leading-retailers-in-us-e-commerce/"><img width="700" alt="eMarket" src="https://user-images.githubusercontent.com/130523834/235723017-00138c57-b60c-4a18-92b1-bbfaa9656520.png"> <br>
      (출처: Market share of leading retail e-commerce companies in the United States<sup>[02]</sup>)
   
      위 그래프는 미국 내 주요 소매 전자상거래 업체의 시장 점유율을 나타낸 그래프이며 eMarketer의 자료에 의하면 Amazon이 시장의 37.8%를 차지하면서 가장 높은 시장 점유율을 보여주는 것으로 나타났다. 실제, 2위인 Walmart와 6.3%와 3위인 Apple의 3.9%와는 엄청난 격차를 보여줄 뿐 아니라 2위에서 15위까지 14개 기업의 시장 점유율을 다 합쳐도 아마존의 시장 점유율에 미치지 못하는 모습을 보여준다.
