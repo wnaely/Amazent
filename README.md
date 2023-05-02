@@ -65,10 +65,10 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
        
    <hr>
        
-   # References
-[01] https://www.samsungpop.com/mobile/invest/poptv.do?cmd=fileDown&FileNm=uma_200626.html
-[02] https://www.statista.com/statistics/274255/market-share-of-the-leading-retailers-in-us-e-commerce/
-[03] http://www.calsec.or.kr/110429spring/paper/2-2-2.pdf
+   ## References
+[01] https://www.samsungpop.com/mobile/invest/poptv.do?cmd=fileDown&FileNm=uma_200626.html <br>
+[02] https://www.statista.com/statistics/274255/market-share-of-the-leading-retailers-in-us-e-commerce/ <br>
+[03] http://www.calsec.or.kr/110429spring/paper/2-2-2.pdf <br>
 
    
    
