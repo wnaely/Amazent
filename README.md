@@ -36,11 +36,14 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
      전자상거래에서 리뷰는 고객들이 상품을 선택하고 구매하는데 있어서 중요한 역할을 하며 이에 따라 온라인 판매 업체들은 높은 평점과 긍정적인 리뷰를 얻기 위해 노력하고 있다. 또한 전자상거래 업체들은 고객들의 구매 경험을 개선하기 위해 더욱 발전된 리뷰 시스템과 기술을 도입하고 있다.
       
      웹을 통한 전자상거래와 정보 공유가 활발해짐에 따라 상품에 대한 리뷰 문서가 상당히 증가하였는데, 사용자들은 상품을 구매한 사이트와 더불어 트위터, 블로그, 페이스북과 같은 소셜 미디어를 통해 자연스럽게 의견을 공유하고 상품 구매에 실제적인 도움을 받는다. 
-
-     Amazon은 이러한 리뷰 작성을 장려하기 위해 다양한 방법을 제공한다. 제품 리뷰 작성을 완료한 구매자들에게 인센티브를 제공하거나, 리뷰 작성을 요청하는 이메일을 보내는 것 등으로 이루어진다. 이러한 노력은 Amazon의 리뷰 시스템이 상품 구매 결정에 미치는 영향력을 높이는 데 큰 도움을 준다.
+     
+     <img width="700" alt="amazon-review-stat" src="https://user-images.githubusercontent.com/130523834/235723433-3e87d8ea-199f-4b2f-96a4-ef02398172d7.jpg">
+     
+     (출처: Consumers' Trust in Online Reviews Gives Amazon an Edge<sup>[04]</sup>)
+     
+     2018년 Salsify의 조사 결과로 미국의 디지털 구매고객의 절반이상인 51%가 아마존을 유용한 제품 정보로 가장 신뢰한다고 나타나 있다. Amazon은 이런 유용한 리뷰 작성을 장려하기 위해 다양한 방법을 제공한다. 제품 리뷰 작성을 완료한 구매자들에게 인센티브를 제공하거나, 리뷰 작성을 요청하는 이메일을 보내는 것 등으로 이루어진다. 이러한 노력은 Amazon의 리뷰 시스템이 상품 구매 결정에 미치는 영향력을 높이는 데 큰 도움을 준다.
      
      <img width="700" alt="amazon-review" src="https://user-images.githubusercontent.com/130523834/235721277-1e7c0a00-f66e-469c-9839-a5a1ac1c4189.png">
-    
     
      상품에 대한 주요 의견을 효과적인 정보의 형태로 전달하는 것이 실제 구매에 영향을 주기 때문에, Amazon은 상품 자체의 정보를 제공하는 거에 나아가 상품에 대한 리뷰를 효과적으로 전달하는 것에 높은 비중을 두고 있다.
      구체적으로 상품 자체의 만족도 점수와 세부 특징별 점수를 구매자로부터 입력 받고 이들 점수를 종합하여 제공하며, 구매 예정자들이 유용하다고 평가한 리뷰나 상품 특징을 강조하여 표시한다.<sup>[03]</sup>
@@ -79,6 +82,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
 [01] https://www.samsungpop.com/mobile/invest/poptv.do?cmd=fileDown&FileNm=uma_200626.html <br>
 [02] https://www.statista.com/statistics/274255/market-share-of-the-leading-retailers-in-us-e-commerce/ <br>
 [03] http://www.calsec.or.kr/110429spring/paper/2-2-2.pdf <br>
+[04] https://www.insiderintelligence.com/articles/topics/retail-ecommerce?ecid=NL1016
 
    
    
