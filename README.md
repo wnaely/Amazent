@@ -11,17 +11,20 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
      현재 우리는 인터넷을 통해 언제 어디서나 쉽게 상품을 구매할 수 있다. 이러한 형태의 상거래를 전자상거래(e-commerce)라고 한다.
   
      <a href="https://www.samsungpop.com/mobile/invest/poptv.do?cmd=fileDown&FileNm=uma_200626.html"><img width="750" alt="e-commerce" src="https://user-images.githubusercontent.com/130523834/235652059-dfc61816-33cc-47cd-8ff4-28ed1d4ec2d1.jpg">
+       
+     (출처: 삼성증권 포트폴리오전략팀 포트폴리오<sup>[01]</sup>) 
   
      전자상거래는 글로벌 소매유통시장의 20% 이상을 차지하고 있는 주요 유통채널이다. 정보통신기술 발전과 스마트폰 보급 확산, 안전하고 편리한 결제시스템 발달 등으로 전자상거래가 크게 성장하였다. 코로나19가 확산되면서 전자상거래는 핵심적인 쇼핑 수단으로 부상했으며 외출이 제한된 소비자들이 온라인 쇼핑에 눈을 돌리면서 세계 곳곳에서 전자상거래 주문량이 급증했다.
   
      이러한 전자상거래의 발전으로 인해 고객들은 더욱 많은 제품을 쉽게 구매할 수 있게 되었지만, 제품의 질이나 신뢰성 등에 대한 불안감 역시 함께 증가하였다. 이러한 불안감을 해소하기 위해 고객들은 온라인으로 제품 구매 시 상품의 평점과 리뷰를 주로 참고하고 있다. 이에 따라 사용자들은 상품에 대한 자신의 경험을 리뷰로 남겨 다른 고객들에게 도움을 주며, 이는 전자상거래 업체들이 구매 후기 시스템을 운영하고 활용하는 데 큰 역할을 하고 있다.
+       <hr>
   
        
      <a href="https://www.insiderintelligence.com/content/top-10-us-companies-ranked-by-ecommerce-sales"><img width="700" alt="eMarket" src="https://user-images.githubusercontent.com/130523834/235666591-65b6fb37-0b9b-432d-b1c1-972568790948.png">
        
-     (출처:Market share of leading retail e-commerce companies in the United States<sup>[01]</sup>)
+     (출처: Market share of leading retail e-commerce companies in the United States<sup>[02]</sup>)
   
-     위 그래프는 미국 내 주요 소매 전자상거래 업체의 시장 점유율을 나타낸 그래프이며 eMarketer의 자료에 의하면 아마존이 시장의 37.8%를 차지하면서 가장 높은 시장 점유율을 보여주는 것으로 나타났다. 실제, 2위인 월마트 6.3%와 3위인 애플의 3.9%와는 엄청난 격차를 보여줄 뿐 아니라 2위에서 15위까지 14개 기업의 시장 점유율을 다 합쳐도 아마존의 시장 점유율에 미치지 못하는 모습을 보여준다.
+     위 그래프는 미국 내 주요 소매 전자상거래 업체의 시장 점유율을 나타낸 그래프이며 eMarketer의 자료에 의하면 Amazon이 시장의 37.8%를 차지하면서 가장 높은 시장 점유율을 보여주는 것으로 나타났다. 실제, 2위인 Walmart와 6.3%와 3위인 Apple의 3.9%와는 엄청난 격차를 보여줄 뿐 아니라 2위에서 15위까지 14개 기업의 시장 점유율을 다 합쳐도 아마존의 시장 점유율에 미치지 못하는 모습을 보여준다.
        
      Amazon은 세계적인 규모를 가진 전자상거래 업체로서, 수많은 제품과 대량의 리뷰 데이터를 보유하고 있다. 이러한 Amazon 리뷰 데이터를 분석하여 제품의 평판을 파악하고, 고객들이 원하는 제품을 더욱 정확하게 추천해주는 것은 아마존뿐만 아니라 온라인 판매 업체에게 매우 중요한 과제이다. 따라서 이번 프로젝트에서는 아마존 리뷰 데이터를 수집하고 감성 분석을 통해 제품에 대한 고객의 평가를 분석하고자 한다.
   
@@ -75,6 +78,15 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
 
        
    ### 입력 - 모델링 - 출력
+       
+       
+   <hr>
+       
+   # References
+[01] https://www.samsungpop.com/mobile/invest/poptv.do?cmd=fileDown&FileNm=uma_200626.html
+[02] https://www.statista.com/statistics/274255/market-share-of-the-leading-retailers-in-us-e-commerce/
+[03] 
+
    
    
    
