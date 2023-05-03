@@ -61,7 +61,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
 
    * ### 데이터 출처
       
-      이번 프로젝트에서는 Kaggle에서 제공하는 [Amazon Reviews](https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews) 데이터셋을 사용하였다.
+      이번 프로젝트에서는 Kaggle에서 제공하는 [Amazon Reviews](https://www.kaggle.com/datasets/bharadwaj6/kindle-reviews) 데이터셋을 사용하였다.
       
    * ### 데이터 소개
      
