@@ -84,6 +84,13 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
       |982619|B00M13FNSS|[2, 2]|5|This book was everything. I just hope Alexus...|07 23, 2014|A2NRGE3CSFY2TQ|Yo|Great read. hands down #5star hit|1406073600|
       <br>
  
+       #### [데이터셋 분할]
+       
+       전체 데이터셋을 훈련 세트와 테스트 세트로 나누었다.
+       
+       |훈련 세트|테스트 세트|
+       |-|-|
+       |687833|294786|
 
        
        
