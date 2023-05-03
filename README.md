@@ -65,7 +65,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
       
    * ### 데이터 소개
      
-     <img width="850" alt="head" src="https://user-images.githubusercontent.com/130523834/235735720-6de2a021-13eb-4799-b559-f5a7b72b0f13.png">
+     데이터 구성
      
       Amazon 리뷰 데이터셋은 리뷰 평점에 따라 분류하였는데, 평점 3점은 제외하고 1과 2점을 부정, 4와 5점을 긍정으로 간주하여 구성하였다.
      
