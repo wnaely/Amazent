@@ -67,7 +67,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
        
        #### [ 데이터 구성 ]
        
-       |asin|helpful|overall|reviewText|reviewTime|reviewerID|reviewerName|summary|unixReviewTime|
+       |asin|helpful|ratings|reviewText|reviewTime|reviewerID|reviewerName|summary|unixReviewTime|
       |-|-|-|-|-|-|-|-|-|
       |ID of the product|helpfulness rating of the review|rating of the product|text of the review(heading)|time of the review(raw)|ID of the reviewer|name of the reviewer|summary of the review|unix timestamp| 
       <br>
