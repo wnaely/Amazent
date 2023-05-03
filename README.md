@@ -64,10 +64,31 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
       이번 프로젝트에서는 Kaggle에서 제공하는 [Amazon Reviews](https://www.kaggle.com/datasets/bharadwaj6/kindle-reviews) 데이터셋을 사용하였다.
       
    * ### 데이터 소개
-     
-     데이터 구성
-     
-      Amazon 리뷰 데이터셋은 리뷰 평점에 따라 분류하였는데, 평점 3점은 제외하고 1과 2점을 부정, 4와 5점을 긍정으로 간주하여 구성하였다.
+       
+       #### [ 데이터 구성 ]
+       
+       |asin|helpful|overall|reviewText|reviewTime|reviewerID|reviewerName|summary|unixReviewTime|
+      |-|-|-|-|-|-|-|-|-|
+      |ID of the product|helpfulness rating of the review|rating of the product|text of the review(heading)|time of the review(raw)|ID of the reviewer|name of the reviewer|summary of the review|unix timestamp| 
+      <br>
+       
+       #### [ 데이터 ]
+       
+      ||asin|helpful|overall|reviewText|reviewTime|reviewerID|reviewerName|summary|unixReviewTime|
+      |-|-|-|-|-|-|-|-|-|-|
+      |0|B000F83SZQ|[0, 0]|5|I enjoy vintage books and movies so I...|05 5, 2014|A1F6404F1VG29J|Avidreader|Nice vintage story|1399248000|
+      |1|B000F83SZQ|[2, 2]|4|This book is a reissue of an old one; the..|01 6, 2014|AN0N05A9LIJEQ|critters|Different...|1388966400|
+      |2|B000F83SZQ|[2, 2]|4|This was a fairly interesting read.  It had old...|04 4, 2014|A795DMNCJILA6|dot|Oldie|1396569600|
+      |...|...|...|...|...|...|...|...|...|...|
+      |982618|B00M13FNSS|[0, 0]|5|When I say this was an excellent book please...|07 23, 2014|A1BQO66R6OLCCW|Nikey|Wow!!|1406073600|
+      |982619|B00M13FNSS|[2, 2]|5|This book was everything. I just hope Alexus...|07 23, 2014|A2NRGE3CSFY2TQ|Yo|Great read. hands down #5star hit|1406073600|
+      <br>
+ 
+
+       
+       
+       
+     Amazon 리뷰 데이터셋은 리뷰 평점에 따라 분류하였는데, 평점 3점은 제외하고 1과 2점을 부정, 4와 5점을 긍정으로 간주하여 구성하였다.
      
      <b> label - 긍부정 분류 </b> (데이터셋에서 label 1은 부정이고 label 2는 긍정이다) <br>
      <b> title - 리뷰의 제목 <br>
