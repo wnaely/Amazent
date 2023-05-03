@@ -74,7 +74,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
        
        #### [ 데이터 ]
        
-      ||asin|helpful|overall|reviewText|reviewTime|reviewerID|reviewerName|summary|unixReviewTime|
+      |index|asin|helpful|ratings|reviewText|reviewTime|reviewerID|reviewerName|summary|unixReviewTime|
       |-|-|-|-|-|-|-|-|-|-|
       |0|B000F83SZQ|[0, 0]|5|I enjoy vintage books and movies so I...|05 5, 2014|A1F6404F1VG29J|Avidreader|Nice vintage story|1399248000|
       |1|B000F83SZQ|[2, 2]|4|This book is a reissue of an old one; the..|01 6, 2014|AN0N05A9LIJEQ|critters|Different...|1388966400|
