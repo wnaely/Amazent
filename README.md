@@ -36,7 +36,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
       
      웹을 통한 전자상거래와 정보 공유가 활발해짐에 따라 상품에 대한 리뷰 문서가 상당히 증가하였는데, 사용자들은 상품을 구매한 사이트와 더불어 트위터, 블로그, 페이스북과 같은 소셜 미디어를 통해 자연스럽게 의견을 공유하고 상품 구매에 실제적인 도움을 받는다. 
      
-     <a href="https://www.insiderintelligence.com/articles/topics/retail-ecommerce?ecid=NL1016"><img width="700" alt="amazon-review-stat" src="https://github.com/wnaely/Amazent/assets/130523834/3bf5fb6a-6c46-4a08-86a0-dd30c2f08b49"> <br>
+     <img width="700" alt="amazon-review-stat" src="https://github.com/wnaely/Amazent/assets/130523834/3bf5fb6a-6c46-4a08-86a0-dd30c2f08b49"><a href="https://www.insiderintelligence.com/articles/topics/retail-ecommerce?ecid=NL1016"> <br>
      (출처: Consumers' Trust in Online Reviews Gives Amazon an Edge<sup>[04]</sup>)
        
 
