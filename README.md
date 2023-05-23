@@ -19,8 +19,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
        <hr>
 
        
-     <a href="https://www.statista.com/statistics/274255/market-share-of-the-leading-retailers-in-us-e-commerce/"><img width="700" alt="eMarket" src="https://github.com/wnaely/Amazent/assets/130523834/2c04ec4b-de8f-4a91-b4f3-d687980c3482"> <br>
-       
+     <img width="700" alt="eMarket" src="https://github.com/wnaely/Amazent/assets/130523834/2c04ec4b-de8f-4a91-b4f3-d687980c3482"><a href="https://www.statista.com/statistics/274255/market-share-of-the-leading-retailers-in-us-e-commerce/"> <br>
      (출처: Market share of leading retail e-commerce companies in the United States<sup>[02]</sup>)
 
   
