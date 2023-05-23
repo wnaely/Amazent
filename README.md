@@ -19,8 +19,9 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
        <hr>
 
        
-     <a href="https://www.statista.com/statistics/274255/market-share-of-the-leading-retailers-in-us-e-commerce/"><img width="700" alt="eMarket" src="https://github.com/wnaely/Amazent/assets/130523834/1688620c-707f-42c7-9d38-32e11b41dc49"> <br>
+     <a href="https://www.statista.com/statistics/274255/market-share-of-the-leading-retailers-in-us-e-commerce/"><img width="700" alt="eMarket" src="https://github.com/wnaely/Amazent/assets/130523834/2c04ec4b-de8f-4a91-b4f3-d687980c3482"> <br>
      (출처: Market share of leading retail e-commerce companies in the United States<sup>[02]</sup>)
+
   
      위 그래프는 미국 내 주요 소매 전자상거래 업체의 시장 점유율을 나타낸 그래프이며 eMarketer의 자료에 의하면 Amazon이 시장의 37.8%를 차지하면서 가장 높은 시장 점유율을 보여주는 것으로 나타났다. 실제, 2위인 Walmart와 6.3%와 3위인 Apple의 3.9%와는 엄청난 격차를 보여줄 뿐 아니라 2위에서 15위까지 14개 기업의 시장 점유율을 다 합쳐도 아마존의 시장 점유율에 미치지 못하는 모습을 보여준다.
        
@@ -35,8 +36,10 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
       
      웹을 통한 전자상거래와 정보 공유가 활발해짐에 따라 상품에 대한 리뷰 문서가 상당히 증가하였는데, 사용자들은 상품을 구매한 사이트와 더불어 트위터, 블로그, 페이스북과 같은 소셜 미디어를 통해 자연스럽게 의견을 공유하고 상품 구매에 실제적인 도움을 받는다. 
      
-     <a href="https://www.insiderintelligence.com/articles/topics/retail-ecommerce?ecid=NL1016"><img width="700" alt="amazon-review-stat" src="https://user-images.githubusercontent.com/130523834/235723433-3e87d8ea-199f-4b2f-96a4-ef02398172d7.jpg"> <br>
+     <a href="https://www.insiderintelligence.com/articles/topics/retail-ecommerce?ecid=NL1016"><img width="700" alt="amazon-review-stat" src="https://github.com/wnaely/Amazent/assets/130523834/3bf5fb6a-6c46-4a08-86a0-dd30c2f08b49"> <br>
      (출처: Consumers' Trust in Online Reviews Gives Amazon an Edge<sup>[04]</sup>)
+       
+
      
      2018년 Salsify의 조사 결과로 미국의 디지털 구매고객의 절반이상인 51%가 아마존을 유용한 제품 정보로 가장 신뢰한다고 나타나 있다. Amazon은 이런 유용한 리뷰 작성을 장려하기 위해 다양한 방법을 제공한다. 제품 리뷰 작성을 완료한 구매자들에게 인센티브를 제공하거나, 리뷰 작성을 요청하는 이메일을 보내는 것 등으로 이루어진다. 이러한 노력은 Amazon의 리뷰 시스템이 상품 구매 결정에 미치는 영향력을 높이는 데 큰 도움을 준다.
      
