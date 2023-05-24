@@ -10,7 +10,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
  
      현재 우리는 인터넷을 통해 언제 어디서나 쉽게 상품을 구매할 수 있다. 이러한 형태의 상거래를 전자상거래(e-commerce)라고 한다.
   
-     <a href="https://www.samsungpop.com/mobile/invest/poptv.do?cmd=fileDown&FileNm=uma_200626.html"><img width="700" alt="e-commerce" src="https://user-images.githubusercontent.com/130523834/235652059-dfc61816-33cc-47cd-8ff4-28ed1d4ec2d1.jpg"> <br>
+     <a href="https://www.samsungpop.com/mobile/invest/poptv.do?cmd=fileDown&FileNm=uma_200626.html"><img width="600" alt="e-commerce" src="https://user-images.githubusercontent.com/130523834/235652059-dfc61816-33cc-47cd-8ff4-28ed1d4ec2d1.jpg"> <br>
      (출처: 삼성증권 포트폴리오전략팀<sup>[01]</sup>) 
   
      전자상거래는 글로벌 소매유통시장의 20% 이상을 차지하고 있는 주요 유통채널이다. 정보통신기술 발전과 스마트폰 보급 확산, 안전하고 편리한 결제시스템 발달 등으로 전자상거래가 크게 성장하였다. 코로나19가 확산되면서 전자상거래는 핵심적인 쇼핑 수단으로 부상했으며 외출이 제한된 소비자들이 온라인 쇼핑에 눈을 돌리면서 세계 곳곳에서 전자상거래 주문량이 급증했다.
@@ -19,7 +19,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
        <hr>
 
        
-     <img width="700" alt="eMarket" src="https://github.com/wnaely/Amazent/assets/130523834/2c04ec4b-de8f-4a91-b4f3-d687980c3482"><a href="https://www.statista.com/statistics/274255/market-share-of-the-leading-retailers-in-us-e-commerce/"> <br>
+     <img width="600" alt="eMarket" src="https://github.com/wnaely/Amazent/assets/130523834/2c04ec4b-de8f-4a91-b4f3-d687980c3482"><a href="https://www.statista.com/statistics/274255/market-share-of-the-leading-retailers-in-us-e-commerce/"> <br>
      (출처: Market share of leading retail e-commerce companies in the United States<sup>[02]</sup>)
 
   
@@ -36,14 +36,14 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
       
      웹을 통한 전자상거래와 정보 공유가 활발해짐에 따라 상품에 대한 리뷰 문서가 상당히 증가하였는데, 사용자들은 상품을 구매한 사이트와 더불어 트위터, 블로그, 페이스북과 같은 소셜 미디어를 통해 자연스럽게 의견을 공유하고 상품 구매에 실제적인 도움을 받는다. 
      
-     <img width="700" alt="amazon-review-stat" src="https://github.com/wnaely/Amazent/assets/130523834/3bf5fb6a-6c46-4a08-86a0-dd30c2f08b49"><a href="https://www.insiderintelligence.com/articles/topics/retail-ecommerce?ecid=NL1016"> <br>
+     <img width="600" alt="amazon-review-stat" src="https://github.com/wnaely/Amazent/assets/130523834/3bf5fb6a-6c46-4a08-86a0-dd30c2f08b49"><a href="https://www.insiderintelligence.com/articles/topics/retail-ecommerce?ecid=NL1016"> <br>
      (출처: Consumers' Trust in Online Reviews Gives Amazon an Edge<sup>[04]</sup>)
        
 
      
      2018년 Salsify의 조사 결과로 미국의 디지털 구매고객의 절반이상인 51%가 아마존을 유용한 제품 정보로 가장 신뢰한다고 나타나 있다. Amazon은 이런 유용한 리뷰 작성을 장려하기 위해 다양한 방법을 제공한다. 제품 리뷰 작성을 완료한 구매자들에게 인센티브를 제공하거나, 리뷰 작성을 요청하는 이메일을 보내는 것 등으로 이루어진다. 이러한 노력은 Amazon의 리뷰 시스템이 상품 구매 결정에 미치는 영향력을 높이는 데 큰 도움을 준다.
      
-     <a href="https://www.amazon.com/Echo-4th-Gen/dp/B085HK4KL6/ref=sr_1_4?crid=39IGDKOPR5EGJ&keywords=alexa&qid=1683047928&sprefix=alexa%2Caps%2C275&sr=8-4&th=1"><img width="800" alt="review" src="https://user-images.githubusercontent.com/130523834/235738605-8519e0a4-9564-4d1c-9705-a111a768c264.png"> <br>
+     <a href="https://www.amazon.com/Echo-4th-Gen/dp/B085HK4KL6/ref=sr_1_4?crid=39IGDKOPR5EGJ&keywords=alexa&qid=1683047928&sprefix=alexa%2Caps%2C275&sr=8-4&th=1"><img width="700" alt="review" src="https://user-images.githubusercontent.com/130523834/235738605-8519e0a4-9564-4d1c-9705-a111a768c264.png"> <br>
      (출처: Amazon.com<sup>[05]</sup>)
 
      
@@ -99,23 +99,28 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
       |100000|B005HAWAZG|[0, 0]|5|Well-crafted story and characters. All the twi...|2013-08-15|A23VTUPIIK4F40|Geminidi|Many Surprises|1376524800|1|
       <br>
  
-       #### [데이터셋 분할]
-       
+       #### [ 데이터셋 분할 ]
+
        reviewText 열에서 중복인 내용을 제거하고 모델의 과대적합과 과소적합 문제를 방지하기 위해 전체 데이터셋을 훈련 세트와 테스트 세트로 나누었다.
        
        |훈련용 리뷰의 개수|테스트용 리뷰의 개수|
        |-|-|
        |69996|29999|
+       <br>
+  
+      #### [ 데이터 시각화 ]
+       
+      <img width="500" alt="ratings" src="https://github.com/wnaely/Amazent/assets/130523834/492fbfcb-6c36-43f2-a318-ab94af13504a">
+       
+       리뷰의 평점 분포는 1점이 가장 낮고 점차 늘어나 5점이 가장 높은 것을 보아 만족도가 높은 사용자들의 평점이 더 많은 것을 확인할 수 있다. <br>
+       
+      <img width="500" alt="plot" src="https://github.com/wnaely/Amazent/assets/130523834/2b8e1607-393d-406d-a03e-963cd25be1e7">
 
-       
-       
      데이터셋의 긍정적인 리뷰와 부정적인 리뷰의 비율을 확인하기 위해 각각 리뷰의 갯수를 구하고 n에 저장하였으며 이를 시각화 하여 막대그래프로 나타내 보았다.
        
        
-![plot](https://github.com/wnaely/Amazent/assets/130523834/0e9ef08e-e591-4350-8f03-958128e4d246)
+     
 
-       
-       그래프를 보면 해당 Amazon Reviews 데이터셋은 긍정적인 리뷰와 부정적인 리뷰의 비율이 거의 비슷하게 저장되어있는 것을 확인할 수 있다. 
        
    <hr>
        
