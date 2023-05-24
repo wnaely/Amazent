@@ -103,11 +103,12 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
   
       #### [ 데이터 시각화 ]
        
-      <img width="500" alt="ratings" src="https://github.com/wnaely/Amazent/assets/130523834/492fbfcb-6c36-43f2-a318-ab94af13504a">
+      <img width="500" alt="ratings" src="https://github.com/wnaely/Amazent/assets/130523834/eede4b83-335e-40a0-994e-baf72ae65d66">
+
        
        리뷰의 평점 분포는 1점이 가장 낮고 점차 늘어나 5점이 가장 높은 것을 보아 만족도가 높은 사용자들의 평점이 더 많은 것을 확인할 수 있다. <br>
        
-      <img width="500" alt="plot" src="https://github.com/wnaely/Amazent/assets/130523834/2b8e1607-393d-406d-a03e-963cd25be1e7">
+      <img width="500" alt="plot" src="https://github.com/wnaely/Amazent/assets/130523834/54438709-15a0-4e21-94e2-7a876355be9d">
 
      데이터셋의 긍정적인 리뷰와 부정적인 리뷰의 비율을 확인하기 위해 각각 리뷰의 갯수를 구하고 n에 저장하였으며 이를 시각화 하여 막대그래프로 나타내 보았다. 긍정적인 리뷰가 부정적인 리뷰에 비해 3배 이상 많다. <br>
        
