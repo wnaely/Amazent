@@ -89,13 +89,14 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
        데이터가 총 982,619건으로 상당히 많은 것을 확인할 수 있다.
        데이터를 줄이기 위해 10만건이 넘는 데이터는 삭제하고 새로운 데이터셋을 저장하였으며 'MM DD, YYYY'로 되어있는 날짜 형식을 'YYYY-MM-DD'로 변경하였다.
        또한 분석을 위해 평점이 4, 5인 리뷰에는 레이블 1을, 평점이 1, 2인 리뷰에는 레이블 0을 부여하고 부여된 레이블은 새로 생성한 label이라는 열에 저장하였다.
+       분석에 필요한 자료인 'index', 'ratings', 'reviewText', 'reviewTime', 'label' 데이터로 새로운 데이터셋을 만들었다.
        
        
-       |index|asin|helpful|ratings|reviewText|reviewTime|reviewerID|reviewerName|summary|unixReviewTime|label|
-      |-|-|-|-|-|-|-|-|-|-|-|
-      |0|B000F83SZQ|[0, 0]|5|I enjoy vintage books and movies so I...|2014-05-05|A1F6404F1VG29J|Avidreader|Nice vintage story|1399248000|1|
-      |...|...|...|...|...|...|...|...|...|...|...|
-      |100000|B005HAWAZG|[0, 0]|5|Well-crafted story and characters. All the twi...|2013-08-15|A23VTUPIIK4F40|Geminidi|Many Surprises|1376524800|1|
+       |index|ratings|reviewText|reviewTime|label|
+      |-|-|-|-|-|
+      |0|5|I enjoy vintage books and movies so I...|2014-05-05|1|
+      |...|...|...|...|...|
+      |100000|5|Well-crafted story and characters. All the twi...|2013-08-15|1|
       <br>
  
   
