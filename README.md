@@ -61,11 +61,11 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
     
 ## 2. 데이터
 
-   * ### 데이터 출처
+   * ### 원본 데이터 출처
       
       이번 프로젝트에서는 Kaggle에서 제공하는 [Amazon Reviews](https://www.kaggle.com/datasets/bharadwaj6/kindle-reviews) 데이터셋을 사용하였다.
       
-   * ### 데이터 소개
+   * ### 원본 데이터 소개
        
        #### [ 데이터 구성 ]
        
@@ -86,7 +86,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
       |982619|B00M13FNSS|[2, 2]|5|This book was everything. I just hope Alexus...|07 23, 2014|A2NRGE3CSFY2TQ|Yo|Great read. hands down #5star hit|1406073600|
       <br>
        
-       데이터가 총 982,619건으로 상당히 많은 것을 확인할 수 있다.
+       원본 데이터는 총 982,619건으로 상당히 많은 것을 확인할 수 있다.
        데이터를 줄이기 위해 10만건이 넘는 데이터는 삭제하고 새로운 데이터셋을 저장하였고 리뷰의 분포를 확인하기 위해 평점 1점부터 5점까지의 정보를 시각화하여 그래프로 나타내 보았다.
       
        <img width="500" alt="ratings" src="https://github.com/wnaely/Amazent/assets/130523834/4c90990d-74dc-4338-a787-f5708db13153">
