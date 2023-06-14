@@ -110,9 +110,9 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
 
      데이터셋의 긍정적인 리뷰와 부정적인 리뷰의 비율을 확인하기 위해 레이블 0과 1의 리뷰의 갯수를 각각 구하고 n에 저장하였으며 이를 시각화 하여 막대그래프로 나타내 보았다. 긍정적인 리뷰가 부정적인 리뷰에 비해 훨씬 많은것을 확인할 수 있다. <br>
        
-     
-  
-   
+      <img width="500" alt="length" src="https://github.com/wnaely/Amazent/assets/130523834/8db1649d-9ff5-477a-8b47-3a0f5ad0cb0e"> <img width="500" alt="length" src="https://github.com/wnaely/Amazent/assets/130523834/99b9f66f-576c-4484-a60f-ab35629b91c8">
+       
+
   * ### 데이터셋 분할
 
       분석의 정확도를 높이기 위해 긍정적인 리뷰와 부정적인 리뷰의 데이터를 각각 1000개씩 랜덤으로 추출하여 새로운 훈련용 데이터를 만들었다. 
