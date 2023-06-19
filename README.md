@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=F49303&height=300&section=header&text=Amazent&fontSize=80&animation=fadeIn&fontAlignY=36&descSize=25&desc=Prediction%20of%20positive%20and%20negative%20Amazon%20user%20reviews&descAlignY=53&fontColor=FFFFFF)
 
-# Amazent <a href="https://www.amazon.com/" target="_blank"><img src="https://img.shields.io/badge/Amazon-F49303?style=for-the badge&logo=Amazon&logoColor=white">
+# Amazent <a href="https://www.amazon.com/" target="_blank"><img src="https://img.shields.io/badge/Amazon-F49303?style=flat&logo=Amazon&logoColor=white">
 MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 긍부정으로 예측
 
 
@@ -135,8 +135,21 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
 
     <hr>
 
-       
+
 ## 3. 결과
+
+   #### [ 개발환경 ]
+
+  <a href="https://blog.jetbrains.com/pycharm/2023/03/2022-3-3/" target="_blank"><img src="https://img.shields.io/badge/PyCharm_2022.3.3-2bc382?style=flat&logo=PyCharm&logoColor=white"/></a>
+  <a href="https://www.python.org/downloads/release/python-3913/" target="_blank"><img src="https://img.shields.io/badge/Python_3.9.13-3776AB?style=flat&logo=Python&logoColor=white"/></a>
+     
+   #### [ 패키지 ] 
+      
+  <img src="https://img.shields.io/badge/TensorFlow_2.9.1-FF6F00?style=flat&logo=TensorFlow&logoColor=white"/></a>
+  <a href="" target="_blank"><img src="https://img.shields.io/badge/Pytorch_1.12.1-EE4C2C?style=flat&logo=PyTorch&logoColor=white"/></a>
+  <a href="" target="_blank"><img src="https://img.shields.io/badge/NumPy_1.24.3-013243?style=flat&logo=NumPy&logoColor=white"/></a>
+  <a href="https://www.python.org/downloads/release/python-3913/" target="_blank"><img src="https://img.shields.io/badge/NumPy_1.24.3-013243?style=flat&logo=NumPy&logoColor=white"/></a>
+
 
        
    <hr>
