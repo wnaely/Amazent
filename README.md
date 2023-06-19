@@ -142,6 +142,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
 
   <a href="https://blog.jetbrains.com/pycharm/2023/03/2022-3-3/" target="_blank"><img src="https://img.shields.io/badge/PyCharm_2022.3.3-2bc382?style=flat&logo=PyCharm&logoColor=white"/></a>
   <a href="https://www.python.org/downloads/release/python-3913/" target="_blank"><img src="https://img.shields.io/badge/Python_3.9.13-3776AB?style=flat&logo=Python&logoColor=white"/></a>
+  <a href="https://blog.jetbrains.com/pycharm/2023/03/2022-3-3/" target="_blank"><img src="https://img.shields.io/badge/JupyterLab 3.3.2-F37626?style=flat&logo=Jupyter&logoColor=white"/></a>
      
    #### [ 패키지 ] 
       
