@@ -145,10 +145,12 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
      
    #### [ 패키지 ] 
       
-  <img src="https://img.shields.io/badge/TensorFlow_2.9.1-FF6F00?style=flat&logo=TensorFlow&logoColor=white"/></a>
+  <a href="" target="_blank"><img src="https://img.shields.io/badge/TensorFlow_2.9.1-FF6F00?style=flat&logo=TensorFlow&logoColor=white"/></a>
   <a href="" target="_blank"><img src="https://img.shields.io/badge/Pytorch_1.12.1-EE4C2C?style=flat&logo=PyTorch&logoColor=white"/></a>
   <a href="" target="_blank"><img src="https://img.shields.io/badge/NumPy_1.24.3-013243?style=flat&logo=NumPy&logoColor=white"/></a>
-  <a href="https://www.python.org/downloads/release/python-3913/" target="_blank"><img src="https://img.shields.io/badge/NumPy_1.24.3-013243?style=flat&logo=NumPy&logoColor=white"/></a>
+  <a href="" target="_blank"><img src="https://img.shields.io/badge/pandas_1.4.4-150458?style=flat&logo=pandas&logoColor=white"/></a>
+  <a href="" target="_blank"><img src="https://img.shields.io/badge/transformers_4.21.2-409FFF?style=flat&logoColor=white"/></a>
+  <a href="" target="_blank"><img src="https://img.shields.io/badge/scikit--learn_1.2.2-F7931E?style=flat&logo=scikit-learn&logoColor=white"/></a>
 
 
        
