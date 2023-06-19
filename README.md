@@ -72,7 +72,6 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
        |asin|helpful|ratings|reviewText|reviewTime|reviewerID|reviewerName|summary|unixReviewTime|
       |-|-|-|-|-|-|-|-|-|
       |ID of the product|helpfulness rating of the review|rating of the product|text of the review(heading)|time of the review(raw)|ID of the reviewer|name of the reviewer|summary of the review|unix timestamp| 
-      <br>
        
        #### [ 데이터 ]
        
@@ -84,40 +83,56 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
       |...|...|...|...|...|...|...|...|...|...|
       |982618|B00M13FNSS|[0, 0]|5|When I say this was an excellent book please...|07 23, 2014|A1BQO66R6OLCCW|Nikey|Wow!!|1406073600|
       |982619|B00M13FNSS|[2, 2]|5|This book was everything. I just hope Alexus...|07 23, 2014|A2NRGE3CSFY2TQ|Yo|Great read. hands down #5star hit|1406073600|
-      <br>
        
        원본 데이터는 총 982,619건으로 상당히 많은 것을 확인할 수 있다.
-       데이터를 줄이기 위해 10만건이 넘는 데이터는 삭제하고 새로운 데이터셋을 만들었다.
-     리뷰의 분포를 확인하기 위해 평점 1점부터 5점까지의 정보를 시각화하여 그래프로 나타내 보았다.
+       데이터를 줄이기 위해 10만건이 넘는 데이터는 삭제하였고 10만건의 새로운 데이터셋을 만들었다. <br>
+       
+       리뷰의 분포를 확인하기 위해 평점 1점부터 5점까지의 정보를 시각화하여 그래프로 나타내 보았다. <br>
+       
       
        <img width="500" alt="ratings" src="https://github.com/wnaely/Amazent/assets/130523834/4c90990d-74dc-4338-a787-f5708db13153">
+       
+       리뷰의 평점 분포는 1점이 3,786개로 가장 낮고 점차 늘어나 5점이 47,356개로 가장 많은 것을 보아 만족도가 높은 사용자들의 평점이 더 많은 것을 확인할 수 있다.
 
+     <img width="500" alt="length_new" src="https://github.com/wnaely/Amazent/assets/130523834/87a4bf42-b52b-4aaa-bdd4-73da18b656e2">
+
+     리뷰의 문장 길이는 100자와 200자 사이인 문장이 8,000개 정도로 가장 많고 200자가 넘어갈수록 점점 줄어든다.<hr>
+
+
+   * ### 분석 데이터
        
-       리뷰의 평점 분포는 1점이 가장 낮고 점차 늘어나 5점이 가장 높은 것을 보아 만족도가 높은 사용자들의 평점이 더 많은 것을 확인할 수 있다. <br>
-       
-       분석을 위해 평점이 4, 5인 리뷰에는 레이블 1을, 평점이 1, 2인 리뷰에는 레이블 0을 부여하고 부여된 레이블은 새로 생성한 label이라는 열에 저장하였으며 평점이 3인 데이터는 삭제하였다.
-     'MM DD, YYYY'로 되어있는 날짜 형식을 'YYYY-MM-DD'로 변경하고 리뷰 문장의 글자수가 20자 미만인 데이터도 삭제하였다.
-       분석에 필요한 자료인 'index', 'ratings', 'reviewText', 'reviewTime', 'label' 데이터로 새로운 데이터셋을 만들었다.
+       분석을 위해 평점이 4, 5인 리뷰에는 레이블 1을 평점이 1, 2인 리뷰에는 레이블 0을 부여하고 부여된 레이블은 새로 생성한 label이라는 열에 저장하였다.
+      평점이 3인 리뷰 데이터와 리뷰 문장의 길이가 20자 미만인 데이터는 삭제하였다.
+       분석에 필요한 자료인 'index', 'ratings', 'reviewText', label' 데이터로 새로운 데이터셋을 만들었다.
        
        
-       |index|ratings|reviewText|label|length|
-      |-|-|-|-|-|
-      |1|5|I enjoy vintage books and movies so I...|1|294|
-      |...|...|...|...|...|
-      |86148|5|Well-crafted story and characters. All the twi...|1|703|
+       |index|ratings|reviewText|label|
+      |-|-|-|-|
+      |1|5|I enjoy vintage books and movies so I...|1|
+      |...|...|...|...|
+      |86148|5|Well-crafted story and characters. All the twi...|1|
       <br>
        
        
       <img width="500" alt="plot" src="https://github.com/wnaely/Amazent/assets/130523834/57747309-4487-4133-8ae1-b6c0a7b1068d">
 
-     데이터셋의 긍정적인 리뷰와 부정적인 리뷰의 비율을 확인하기 위해 레이블 0과 1의 리뷰의 갯수를 각각 구하고 n에 저장하였으며 이를 시각화 하여 막대그래프로 나타내 보았다. 긍정적인 리뷰가 부정적인 리뷰에 비해 훨씬 많은것을 확인할 수 있다. <br>
+     데이터의 긍정적인 리뷰와 부정적인 리뷰의 비율을 확인하기 위해 레이블 0과 1의 리뷰의 갯수를 각각 구하고 n에 저장하였으며 이를 시각화 하여 막대그래프로 나타내 보았다. 긍정적인 리뷰가 부정적인 리뷰에 비해 훨씬 많은것을 확인할 수 있다. <br>
        
-      <img width="500" alt="length" src="https://github.com/wnaely/Amazent/assets/130523834/8db1649d-9ff5-477a-8b47-3a0f5ad0cb0e"> <img width="500" alt="length" src="https://github.com/wnaely/Amazent/assets/130523834/99b9f66f-576c-4484-a60f-ab35629b91c8">
+      
        
 
-  * ### 데이터셋 분할
+  * ### 데이터셋 분할 - 학습 데이터 생성
 
-      분석의 정확도를 높이기 위해 긍정적인 리뷰와 부정적인 리뷰의 데이터를 각각 1000개씩 랜덤으로 추출하여 새로운 훈련용 데이터를 만들었다. 
+      분석의 정확도를 높이기 위해 긍정적인 리뷰와 부정적인 리뷰의 데이터를 각각 1000개씩 랜덤으로 추출하여 2000개의 학습 데이터를 만들었다.
+
+      |index|ratings|reviewText|label|
+      |-|-|-|-|
+      |1|4|A great read to continue the Bride Train serie...|1|
+      |2|4|good western read, with a little sci fi mixed...|1|
+      |...|...|...|...|
+      |1999|1|I would have easily given this book four stars...|0|
+      |2000|1|I wanted to say something nice - the cover is...|0|
+      
    
        <br>
 
