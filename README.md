@@ -118,8 +118,6 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
 
      데이터의 긍정적인 리뷰와 부정적인 리뷰의 비율을 확인하기 위해 레이블 0과 1의 리뷰의 갯수를 각각 구하고 n에 저장하였으며 이를 시각화 하여 막대그래프로 나타내 보았다. 긍정적인 리뷰가 부정적인 리뷰에 비해 훨씬 많은것을 확인할 수 있다. <br>
        
-      
-       
 
   * ### 데이터셋 분할 - 학습 데이터 생성
 
@@ -140,22 +138,40 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
 
    #### [ 개발환경 ]
 
-  <a href="https://blog.jetbrains.com/pycharm/2023/03/2022-3-3/" target="_blank"><img src="https://img.shields.io/badge/PyCharm_2022.3.3-2bc382?style=flat&logo=PyCharm&logoColor=white"/></a>
-  <a href="https://www.python.org/downloads/release/python-3913/" target="_blank"><img src="https://img.shields.io/badge/Python_3.9.13-3776AB?style=flat&logo=Python&logoColor=white"/></a>
-  <a href="https://blog.jetbrains.com/pycharm/2023/03/2022-3-3/" target="_blank"><img src="https://img.shields.io/badge/JupyterLab 3.3.2-F37626?style=flat&logo=Jupyter&logoColor=white"/></a>
+   <a href="https://blog.jetbrains.com/pycharm/2023/03/2022-3-3/" target="_blank"><img src="https://img.shields.io/badge/PyCharm_2022.3.3-2bc382?style=flat&logo=PyCharm&logoColor=white"/></a>
+   <a href="https://www.python.org/downloads/release/python-3913/" target="_blank"><img src="https://img.shields.io/badge/Python_3.9.13-3776AB?style=flat&logo=Python&logoColor=white"/></a>
+   <a href="https://blog.jetbrains.com/pycharm/2023/03/2022-3-3/" target="_blank"><img src="https://img.shields.io/badge/JupyterLab 3.3.2-F37626?style=flat&logo=Jupyter&logoColor=white"/></a>
      
    #### [ 패키지 ] 
       
-  <a href="" target="_blank"><img src="https://img.shields.io/badge/TensorFlow_2.9.1-FF6F00?style=flat&logo=TensorFlow&logoColor=white"/></a>
-  <a href="" target="_blank"><img src="https://img.shields.io/badge/Pytorch_1.12.1-EE4C2C?style=flat&logo=PyTorch&logoColor=white"/></a>
-  <a href="" target="_blank"><img src="https://img.shields.io/badge/NumPy_1.24.3-013243?style=flat&logo=NumPy&logoColor=white"/></a>
-  <a href="" target="_blank"><img src="https://img.shields.io/badge/pandas_1.4.4-150458?style=flat&logo=pandas&logoColor=white"/></a>
-  <a href="" target="_blank"><img src="https://img.shields.io/badge/transformers_4.21.2-409FFF?style=flat&logoColor=white"/></a>
-  <a href="" target="_blank"><img src="https://img.shields.io/badge/scikit--learn_1.2.2-F7931E?style=flat&logo=scikit-learn&logoColor=white"/></a>
+   <a href="" target="_blank"><img src="https://img.shields.io/badge/TensorFlow_2.9.1-FF6F00?style=flat&logo=TensorFlow&logoColor=white"/></a>
+   <a href="" target="_blank"><img src="https://img.shields.io/badge/Pytorch_1.12.1-EE4C2C?style=flat&logo=PyTorch&logoColor=white"/></a>
+   <a href="" target="_blank"><img src="https://img.shields.io/badge/NumPy_1.24.3-013243?style=flat&logo=NumPy&logoColor=white"/></a>
+   <a href="" target="_blank"><img src="https://img.shields.io/badge/pandas_1.4.4-150458?style=flat&logo=pandas&logoColor=white"/></a>
+   <a href="" target="_blank"><img src="https://img.shields.io/badge/transformers_4.21.2-409FFF?style=flat&logoColor=white"/></a>
+   <a href="" target="_blank"><img src="https://img.shields.io/badge/scikit--learn_1.2.2-F7931E?style=flat&logo=scikit-learn&logoColor=white"/></a>
 
+  * ### MobileBERT를 사용한 결과
+    
+     <img width="750" alt="train_valid" src="https://github.com/wnaely/Amazent/assets/130523834/974536d1-22f7-4141-b24e-85dc590ff47f">
 
-       
+     텐서보드
+
+  * ### 분석 데이터 전체에 적용한 결과값
+
+     <img width="600" alt="BERT_RETRAIN_with_writer" src="https://github.com/wnaely/Amazent/assets/130523834/9e4216a0-ab41-44ba-b850-efd26715a5a0">
+     
+     학습데이터
+    
+    <img width="600" alt="BERT_TESTv2" src="https://github.com/wnaely/Amazent/assets/130523834/a8a49a1f-d3c7-498f-8a04-3ec37c8089e5">
+
+     분석데이터
+
    <hr>
+
+## 4. 마무리
+
+#### 느낀점 등
        
    ## References
 [01] https://www.samsungpop.com/mobile/invest/poptv.do?cmd=fileDown&FileNm=uma_200626.html <br>
