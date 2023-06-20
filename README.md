@@ -102,7 +102,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
    * ### 분석 데이터
        
        분석을 위해 평점이 4, 5인 리뷰에는 레이블 1을 평점이 1, 2인 리뷰에는 레이블 0을 부여하고 부여된 레이블은 새로 생성한 label이라는 열에 저장하였다.
-      평점이 3인 리뷰 데이터와 리뷰 문장의 길이가 20자 미만인 데이터는 삭제하였고 분석에 필요한 자료인 'index', 'ratings', 'reviewText', label' 데이터로 새로운 데이터셋을 만들었다.
+      평점이 3인 리뷰 데이터와 리뷰 문장의 길이가 20자 미만인 데이터는 삭제하였고 'index', 'ratings', 'reviewText', label' 데이터로 새로운 데이터셋을 만들었다.
        
        
        |index|ratings|reviewText|label|
@@ -155,6 +155,12 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
      <img width="750" alt="train_valid" src="https://github.com/wnaely/Amazent/assets/130523834/974536d1-22f7-4141-b24e-85dc590ff47f">
 
      텐서보드
+
+    |step|0|1|2|3|
+    |-|-|-|-|-|
+    |loss|96,990|0.37|0.2149|0.1567|
+    |Accuracy|0.877|0.911|0.9167|0.9238|
+    
 
   * ### 분석 데이터 전체에 적용한 결과값
 
