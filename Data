@@ -1,10 +1,17 @@
 일부 데이터의 크기가 너무 커서 압축해도 파일이 업로드 되지 않아 부득이하게 드라이브에 파일을 업로드 하였습니다.
-드라이브에 올린 파일의 링크를 첨부하도록 하겠습니다.
+드라이브에 올린 파일의 링크를 첨부하도록 하겠습니다. 양해해주셔서 감사합니다.
 
-amazon_reviews.csv (원본 데이터)
+amazon_reviews.csv (원본 데이터) 
+- https://drive.google.com/file/d/1a56j2UPUr7-qsyJwdiFEPtuZnTESL3TT/view?usp=drive_link
+
 reviews.csv (원본데이터를 10만건으로 줄인 데이터)
+- https://drive.google.com/file/d/11fg5GOI-cM5pxWMv0qA8iSeHumzL8jCZ/view?usp=drive_link
+
 
 review_data.csv (분석 데이터)
+- https://drive.google.com/file/d/1QYDqbTaE7kvLCT8pnGaUzsDEYx3siNuz/view?usp=drive_link
+
 training_2000.csv (학습 데이터)
+- https://drive.google.com/file/d/1efSEH2r4Y-Xit2ckPNnuvGE-ylDKPvnX/view?usp=drive_link
 
 
