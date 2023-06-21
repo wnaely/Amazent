@@ -9,7 +9,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
    * ### 문제정의
  
      현재 우리는 인터넷을 통해 언제 어디서나 쉽게 상품을 구매할 수 있다. 이러한 형태의 상거래를 전자상거래(e-commerce)라고 한다.
-  
+     
      <a href="https://www.samsungpop.com/mobile/invest/poptv.do?cmd=fileDown&FileNm=uma_200626.html"><img width="600" alt="e-commerce" src="https://user-images.githubusercontent.com/130523834/235652059-dfc61816-33cc-47cd-8ff4-28ed1d4ec2d1.jpg"> <br>
      (출처: 삼성증권 포트폴리오전략팀<sup>[01]</sup>) 
   
@@ -36,7 +36,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
       
      웹을 통한 전자상거래와 정보 공유가 활발해짐에 따라 상품에 대한 리뷰 문서가 상당히 증가하였는데, 사용자들은 상품을 구매한 사이트와 더불어 트위터, 블로그, 페이스북과 같은 소셜 미디어를 통해 자연스럽게 의견을 공유하고 상품 구매에 실질적인 도움을 받는다. 
      
-     <img width="600" alt="amazon-review-stat" src="https://github.com/wnaely/Amazent/assets/130523834/6ff096b1-478d-45f0-98b3-6eb24b9d8ded"><a href="https://www.insiderintelligence.com/articles/topics/retail-ecommerce?ecid=NL1016"> <br>
+     <img width="600" alt="amazon-review-stat" src="https://github.com/wnaely/Amazent/assets/130523834/35f12e07-fa05-4877-bf2f-b167d7fd855f"><a href="https://www.insiderintelligence.com/articles/topics/retail-ecommerce?ecid=NL1016"> <br>
      (출처: Consumers' Trust in Online Reviews Gives Amazon an Edge<sup>[04]</sup>)
 
      
@@ -178,8 +178,18 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
 
 ## 4. 마무리
 
-#### 느낀점 등
-       
+   이번 프로젝트를 진행하면서 MobileBERT를 활용하여 Amazon 사용자 리뷰의 감성을 긍정과 부정으로 예측하는 모델을 개발하였으며 Amazent 프로젝트를 통해 자연어 처리와 감성 분석에 대한 이해와 실전 경험을 쌓을 수 있었다. 
+
+   프로젝트의 주요 단계로는 데이터 전처리, 모델 구축, 학습 및 평가로 구성되어있고 데이터 전처리 과정에서는 평점과 리뷰 문장 길이를 기반으로한 분석 데이터셋을 만들었다. 모델 구축 단계에서는 MobileBERT 모델을 활용하여 감성 분석 모델을 구성하였고, 학습 및 평가를 통해 모델의 성능을 평가하였다.
+
+   프로젝트 결과로는 분석 데이터셋에 모델을 적용한 결과, 0.93의 정확도를 달성하였으며 이로 인해 모델이 리뷰의 감성을 상당히 정확하게 예측할 수 있음을 나타냈다.
+
+   프로젝트를 진행하면서 모델 개발의 다양한 과정을 경험하고 실제 데이터와 모델을 다루며 자연어 처리 및 감성 분석에 대한 이해와 실무적인 능력을 키울 수 있었다는 점이 가장 인상 깊었다. 또한 이러한 과정과 결과 등을 깃허브에 보고서 형식으로 작성하면서 이번 프로젝트의 내용을 이해하는데 더욱 직접적인 도움이 되었다. 
+   
+  이 경험을 통해 앞으로의 프로젝트나 관련 작업에서 더 효과적이고 품질 높은 모델을 개발할 수 있을 것 같다.
+
+<hr>
+
    ## References
 [01] https://www.samsungpop.com/mobile/invest/poptv.do?cmd=fileDown&FileNm=uma_200626.html <br>
 [02] https://www.statista.com/statistics/274255/market-share-of-the-leading-retailers-in-us-e-commerce/ <br>
