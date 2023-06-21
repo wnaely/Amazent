@@ -23,7 +23,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
      (출처: Market share of leading retail e-commerce companies in the United States<sup>[02]</sup>)
 
   
-     위 그래프는 미국 내 주요 소매 전자상거래 업체의 시장 점유율을 나타낸 그래프이며 eMarketer의 자료에 의하면 Amazon이 시장의 37.8%를 차지하면서 가장 높은 시장 점유율을 보여주는 것으로 나타났다. 실제, 2위인 Walmart와 6.3%와 3위인 Apple의 3.9%와는 엄청난 격차를 보여줄 뿐 아니라 2위에서 15위까지 14개 기업의 시장 점유율을 다 합쳐도 아마존의 시장 점유율에 미치지 못하는 모습을 보여준다.
+     위 그래프는 미국 내 주요 소매 전자상거래 업체의 시장 점유율을 나타낸 그래프이며 eMarketer의 자료에 의하면 Amazon이 시장의 37.8%를 차지하면서 가장 높은 시장 점유율을 보여주는 것으로 나타났다. 실제, 2위인 Walmart의 6.3%와 3위인 Apple의 3.9%와는 엄청난 격차를 보여줄 뿐 아니라 2위에서 15위까지 14개 기업의 시장 점유율을 다 합쳐도 아마존의 시장 점유율에 미치지 못하는 모습을 보여준다.
        
      Amazon은 세계적인 규모를 가진 전자상거래 업체로서, 수많은 제품과 대량의 리뷰 데이터를 보유하고 있다. 이러한 Amazon 리뷰 데이터를 분석하여 제품의 평판을 파악하고, 고객들이 원하는 제품을 더욱 정확하게 추천해주는 것은 아마존뿐만 아니라 온라인 판매 업체에게 매우 중요한 과제이다.
   
@@ -150,27 +150,29 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
    <a href="" target="_blank"><img src="https://img.shields.io/badge/transformers_4.21.2-409FFF?style=flat&logoColor=white"/></a>
    <a href="" target="_blank"><img src="https://img.shields.io/badge/scikit--learn_1.2.2-F7931E?style=flat&logo=scikit-learn&logoColor=white"/></a>
 
-  * ### MobileBERT를 사용한 결과
-    
-     <img width="750" alt="train_valid" src="https://github.com/wnaely/Amazent/assets/130523834/974536d1-22f7-4141-b24e-85dc590ff47f">
+  * ### MobileBERT를 사용하여 학습한 결과
 
-     텐서보드
+     <img width="600" alt="BERT_RETRAIN_with_writer" src="https://github.com/wnaely/Amazent/assets/130523834/baa00705-e096-482c-b668-1e4a3147d227">
+
+     <img width="750" alt="train_valid" src="https://github.com/wnaely/Amazent/assets/130523834/ad60a77b-c22c-4b08-b92e-a4088389bf04">
+
+    각 단계의 loss와 Accuracy의 평균을 내어 나타내보면 아래와 같다. 
 
     |step|0|1|2|3|
     |-|-|-|-|-|
     |loss|96,990|0.37|0.2149|0.1567|
     |Accuracy|0.877|0.911|0.9167|0.9238|
+
+    결과를 보면 학습의 첫 번째 단계에 높은 손실값과 달리 4번째 단계에서는 0.1567로 손실값이 각 학습 단계마다 감소하고 있다. 이는 모델이 학습 데이터에서 효과적으로 학습되고 있는 것을 나타내며 텐서보드를 통해 손실 값의 변화를 그래프로 시각화하여 학습 진행 상황을 보다 명확하게 확인할 수 있다.
+
+    정확도(Accuracy)도 학습이 진행됨에 따라 증가하는 변화를 보인다. 초기에는 0.877이었지만, 4번째 단계에서는 0.9238로 성능이 향상된 것을 확인할 수 있고 리뷰의 감성을 잘 예측하고 있다는 것을 나타낸다.
     
 
   * ### 분석 데이터 전체에 적용한 결과값
 
-     <img width="600" alt="BERT_RETRAIN_with_writer" src="https://github.com/wnaely/Amazent/assets/130523834/9e4216a0-ab41-44ba-b850-efd26715a5a0">
-     
-     학습데이터
-    
-    <img width="600" alt="BERT_TESTv2" src="https://github.com/wnaely/Amazent/assets/130523834/a8a49a1f-d3c7-498f-8a04-3ec37c8089e5">
+    <img width="600" alt="BERT_TESTv2" src="https://github.com/wnaely/Amazent/assets/130523834/037fb1f4-62b3-4b82-b637-3d4f9403f009">
 
-     분석데이터
+    최종적으로 분석 데이터에 학습 시킨 모델을 적용한 결과, 0.93의 긍부정 예측 정확도가 나왔다.
 
    <hr>
 
