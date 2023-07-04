@@ -130,7 +130,7 @@ MobileBert를 활용하여 Amazon 사용자 리뷰에서 나타나는 감성을 
       |1999|1|I would have easily given this book four stars...|0|
       |2000|1|I wanted to say something nice - the cover is...|0|
 
-    <hr>
+<hr>
 
 
 ## 3. 결과
